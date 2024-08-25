@@ -1,0 +1,115 @@
+.cartModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(21, 6, 6);
+    overflow: hidden;
+}
+
+.itemContainer {
+    width: 80%;
+    height: 60%;
+    margin-block: 1rem;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 1rem; */
+   
+}
+
+.cartCard {
+    height: 100px;
+    border: 4px solid var(--accent-color);
+    position: relative;
+    margin-block: 1rem;
+    background-color:lightseagreen;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem;
+    z-index: 140;
+    pointer-events: all;
+    font-size: 0.6rem;
+    border-radius: 30px;
+}
+
+
+.total {
+    width: 80%;
+    margin-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 1.4rem;
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    border: 0.3rem solid var(--secondary-color);
+}
+
+.totalText {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-inline: 1rem;
+
+}
+
+.totalPrice {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-inline: 1rem;
+}
+
+.closeButton {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--accent-color);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 150;
+}
+
+.clearButton {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(156, 148, 148);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 150;
+}
+
+.button {
+    border: 0.15rem solid #000;
+    background-color:lightcoral;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
+    margin-left: 1rem;
+    border-radius: 30px;
+  }
+  
+  .button:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    background-color:red;
+    color: var(--primary-color);
+  } 
+  

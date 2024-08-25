@@ -1,0 +1,84 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#000068;
+    color: white;
+    
+  }
+  .alogo img {
+    height: 60%;
+    cursor: pointer;
+  }
+
+
+  .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+  }
+  .navLinks li{
+    position: relative;
+    margin-left: 100px;
+    background-color: rgb(72, 91, 93);
+    padding: 10px;
+    border-radius: 20px;
+  
+  }
+  .navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .navLinks a:hover {
+    color: #000a0c;
+  }
+  
+  .cart a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .cart a:hover {
+    color: #94db11;
+  }
+  
+  .img{
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .button {
+    border: 0.15rem solid #000;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
+    margin-left: 1rem;
+  }
+  
+  .button:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  } 
+  .input{
+    font-size: larger;
+    padding: 3px;
+    border-radius: 30px;
+    
+  }

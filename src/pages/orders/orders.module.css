@@ -1,0 +1,72 @@
+/* Order.module.css */
+.orderSummary {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .orderSummary h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .orderList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orderList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .orderList li p {
+    margin: 0;
+  }
+  
+  .orderList li:last-child {
+    border-bottom: none;
+  }
+  
+  .removeButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .removeButton:hover {
+    background-color: #c0392b;
+  }
+  
+  .clearButton {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clearButton:hover {
+    background-color: #2980b9;
+  }
+  
+  .total {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
